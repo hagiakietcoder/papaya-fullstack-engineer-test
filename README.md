@@ -1,0 +1,48 @@
+# Papaya Insurtech — Full-Stack Engineer Test
+
+**Ứng viên:** Ha Gia Kiet  
+**Vị trí:** Full-Stack Engineer  
+**Trạng thái:** Đang làm bài (chưa nộp)
+
+---
+
+## Cấu trúc bài nộp
+
+| Phần | Thư mục | Trạng thái |
+|------|---------|------------|
+| Logical Questions | [`logical-questions/`](./logical-questions/) | ✅ Đã trả lời 7 câu |
+| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01 done |
+
+---
+
+## Logical Questions
+
+Đã chọn và trả lời **7 câu** (yêu cầu tối thiểu: 5 câu):
+
+| Câu | Mức độ | Chủ đề |
+|-----|--------|--------|
+| [Q5](./logical-questions/Q05-forgot-item.md) | Trung cấp | Lần cuối bỏ quên đồ |
+| [Q6](./logical-questions/Q06-movie-queue.md) | Trung cấp | Vị trí trong hàng đợi rạp chiếu phim |
+| [Q7](./logical-questions/Q07-bus-seat.md) | Trung cấp | Vị trí ngồi trên xe buýt |
+| [Q12](./logical-questions/Q12-refuel-guide.md) | Chuyên sâu | Hướng dẫn đổ xăng nhanh nhất |
+| [Q14](./logical-questions/Q14-restroom-door.md) | Chuyên sâu | Thiết kế cửa nhà vệ sinh Nam công cộng |
+| [Q15](./logical-questions/Q15-fruit-market.md) | Chuyên sâu | Chọn quầy trái cây "ngon, bổ, rẻ" |
+| [Q17](./logical-questions/Q17-walking-with-child.md) | Chuyên sâu | Dắt con đi: khi nào bé dẫn, khi nào mình dẫn |
+
+---
+
+## AI Engineering Challenges
+
+| # | Bài | Cấp độ | Live Demo |
+|---|-----|--------|-----------|
+| 01 | [Insurance Plan Comparison](./ai-engineering-challenges/challenge-01/) | Beginner | _pending deploy_ |
+
+→ Xem [`ai-engineering-challenges/README.md`](./ai-engineering-challenges/README.md)
+
+---
+
+## Ghi chú nộp bài
+
+- **Email nộp:** people@papaya.asia
+- **Hình thức:** Gửi link GitHub/GitLab tổng hợp câu trả lời
+- **Thời hạn:** Không muộn hơn 5 ngày kể từ ngày nhận email

@@ -1,0 +1,14 @@
+# Netlify config — build Challenge 01 from monorepo root
+[build]
+  base = "ai-engineering-challenges/challenge-01"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# SPA fallback (Vite / React)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
