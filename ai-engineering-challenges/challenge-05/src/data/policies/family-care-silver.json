@@ -1,0 +1,62 @@
+{
+  "policy_number": "POL-2024-TH-01234",
+  "policyholder": {
+    "name": "Somchai Wong",
+    "type": "INDIVIDUAL"
+  },
+  "plan": {
+    "name": "Family Care Silver",
+    "tier": "Silver",
+    "effective_date": "2024-06-01",
+    "expiry_date": "2025-05-31",
+    "currency": "THB"
+  },
+  "members": {
+    "total": 4,
+    "employee": 1,
+    "dependent_spouse": 1,
+    "dependent_child": 2
+  },
+  "benefits": [
+    {
+      "type": "INPATIENT",
+      "annual_limit": 800000,
+      "sub_benefits": [
+        { "name": "Room & Board", "limit_per_day": 5000, "max_days": 60 },
+        { "name": "Surgery", "limit_per_event": 200000 }
+      ]
+    },
+    {
+      "type": "OUTPATIENT",
+      "annual_limit": 50000,
+      "sub_benefits": [
+        { "name": "Doctor Visit", "limit_per_visit": 2000, "visits_per_year": 20 },
+        { "name": "Prescribed Medicine", "limit_per_visit": 1500 }
+      ]
+    },
+    {
+      "type": "DENTAL",
+      "annual_limit": 15000,
+      "waiting_period_days": 120,
+      "sub_benefits": [
+        { "name": "Basic Dental", "limit_per_year": 15000 }
+      ]
+    }
+  ],
+  "exclusions": [
+    "Pre-existing conditions within first 6 months",
+    "Experimental or unproven treatments",
+    "War, riot, or civil commotion",
+    "Alcohol or substance abuse related treatment"
+  ],
+  "copay": {
+    "outpatient": { "percentage": 15, "max_per_visit": 300 },
+    "inpatient": { "percentage": 10, "max_per_visit": 2000 },
+    "dental": { "percentage": 25, "max_per_visit": 400 }
+  },
+  "network": {
+    "type": "OPEN_NETWORK",
+    "hospital_count": 280,
+    "countries": ["Thailand"]
+  }
+}

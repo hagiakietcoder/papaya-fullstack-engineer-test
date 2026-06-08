@@ -1,7 +1,7 @@
 # AI Engineering Challenges
 
 **Cấp độ:** Beginner  
-**Trạng thái:** 🔄 Challenge 01–04 hoàn thành
+**Trạng thái:** 🔄 Challenge 01–05 hoàn thành
 
 ---
 
@@ -13,6 +13,7 @@
 | 02 | [Claims Data Cleanup & Report](./challenge-02/) | Beginner | 2–3 giờ | ✅ Done | [Report](./challenge-02/output/data_quality_report.md) |
 | 03 | [Claim Notification Email Templates](./challenge-03/) | Beginner | 2–3 giờ | ✅ Done | Live URL: _pending deploy_ |
 | 04 | [Insurance Glossary Search App](./challenge-04/) | Beginner | 2–3 giờ | ✅ Done | Live URL: _pending deploy_ |
+| 05 | [Policy Summary Generator](./challenge-05/) | Beginner | 2–4 giờ | ✅ Done | Live URL: _pending deploy_ |
 
 ---
 
@@ -77,13 +78,31 @@ npm run dev
 
 ---
 
+## Challenge 05 — Policy Summary Generator
+
+**Tech stack:** React + TypeScript + Vite
+
+Policy JSON → formatted HTML summary. 2 sample policies included.
+
+```powershell
+cd challenge-05
+npm install
+npm run dev
+```
+
+**Deploy (Netlify):** Base directory = `ai-engineering-challenges/challenge-05`
+
+→ Chi tiết: [`challenge-05/README.md`](./challenge-05/README.md)
+
+---
+
 ## Commit & push lên GitHub
 
 ```powershell
 cd d:\hgk\papaya-fullstack-engineer-test
 
 git add .
-git commit -m "Add AI challenge 04: insurance glossary search app"
+git commit -m "Add AI challenge 05: policy summary generator"
 git push
 ```
 
@@ -101,6 +120,7 @@ git push
 | Challenge 02 (Beginner) | 2–3 giờ |
 | Challenge 03 (Beginner) | 2–3 giờ |
 | Challenge 04 (Beginner) | 2–3 giờ |
-| **Tổng (4 bài Beginner)** | **~9–12 giờ** |
+| Challenge 05 (Beginner) | 2–4 giờ |
+| **Tổng (5 bài Beginner)** | **~11–16 giờ** |
 
 **Tổng ước lượng ban đầu:** ~8 giờ (theo đề bài Papaya)
