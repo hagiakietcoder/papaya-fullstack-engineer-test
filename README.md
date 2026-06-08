@@ -11,7 +11,7 @@
 | Phần | Thư mục | Trạng thái |
 |------|---------|------------|
 | Logical Questions | [`logical-questions/`](./logical-questions/) | ✅ Đã trả lời 7 câu |
-| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–05 done |
+| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–07 done |
 
 ---
 
@@ -40,6 +40,8 @@
 | 03 | [Claim Notification Email Templates](./ai-engineering-challenges/challenge-03/) | Beginner | _pending deploy_ |
 | 04 | [Insurance Glossary Search App](./ai-engineering-challenges/challenge-04/) | Beginner | _pending deploy_ |
 | 05 | [Policy Summary Generator](./ai-engineering-challenges/challenge-05/) | Beginner | _pending deploy_ |
+| 06 | [Policy Benefits Calculator](./ai-engineering-challenges/challenge-06/) | Intermediate | [Results](./ai-engineering-challenges/challenge-06/src/data/expected-results.json) |
+| 07 | [Claims Intake Wizard](./ai-engineering-challenges/challenge-07/) | Intermediate | _pending deploy_ |
 
 → Xem [`ai-engineering-challenges/README.md`](./ai-engineering-challenges/README.md)
 
@@ -131,6 +133,47 @@ Mở http://localhost:5173 → chọn policy → xem summary.
 **Deploy (Netlify):** set Base directory = `ai-engineering-challenges/challenge-05`
 
 Chi tiết: [`challenge-05/README.md`](./ai-engineering-challenges/challenge-05/README.md)
+
+---
+
+## Cách chạy Challenge 06
+
+**Yêu cầu:** Node.js 18+
+
+```powershell
+cd d:\hgk\papaya-fullstack-engineer-test\ai-engineering-challenges\challenge-06
+npm install
+npm test
+npm run calculate
+```
+
+**Kết quả mong đợi:**
+
+```
+Tests  13 passed (13)
+Processed 20 expenses
+Total covered: 536,240 THB
+```
+
+Chi tiết: [`challenge-06/README.md`](./ai-engineering-challenges/challenge-06/README.md)
+
+---
+
+## Cách chạy Challenge 07
+
+**Yêu cầu:** Node.js 18+
+
+```powershell
+cd d:\hgk\papaya-fullstack-engineer-test\ai-engineering-challenges\challenge-07
+npm install
+npm run dev
+```
+
+Mở http://localhost:5173 → hoàn thành 5 bước submit claim.
+
+**Deploy (Netlify):** set Base directory = `ai-engineering-challenges/challenge-07`
+
+Chi tiết: [`challenge-07/README.md`](./ai-engineering-challenges/challenge-07/README.md)
 
 ---
 

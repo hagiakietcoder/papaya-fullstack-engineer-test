@@ -1,7 +1,7 @@
 # AI Engineering Challenges
 
 **Cấp độ:** Beginner  
-**Trạng thái:** 🔄 Challenge 01–05 hoàn thành
+**Trạng thái:** 🔄 Challenge 01–07 hoàn thành
 
 ---
 
@@ -14,6 +14,8 @@
 | 03 | [Claim Notification Email Templates](./challenge-03/) | Beginner | 2–3 giờ | ✅ Done | Live URL: _pending deploy_ |
 | 04 | [Insurance Glossary Search App](./challenge-04/) | Beginner | 2–3 giờ | ✅ Done | Live URL: _pending deploy_ |
 | 05 | [Policy Summary Generator](./challenge-05/) | Beginner | 2–4 giờ | ✅ Done | Live URL: _pending deploy_ |
+| 06 | [Policy Benefits Calculator](./challenge-06/) | Intermediate | 2–4 giờ | ✅ Done | [Results](./challenge-06/src/data/expected-results.json) |
+| 07 | [Claims Intake Wizard](./challenge-07/) | Intermediate | 3–5 giờ | ✅ Done | Live URL: _pending deploy_ |
 
 ---
 
@@ -96,6 +98,41 @@ npm run dev
 
 ---
 
+## Challenge 06 — Policy Benefits Calculator
+
+**Tech stack:** TypeScript + Vitest (library module, no web UI)
+
+Policy JSON + 20 expenses → covered amount per claim with explanations. Chronological processing with running limits.
+
+```powershell
+cd challenge-06
+npm install
+npm test
+npm run calculate
+```
+
+→ Chi tiết: [`challenge-06/README.md`](./challenge-06/README.md)
+
+---
+
+## Challenge 07 — Claims Intake Wizard
+
+**Tech stack:** React + TypeScript + Vite
+
+5-step claim submission wizard with conditional logic, ICD-10 autocomplete, document upload, and review.
+
+```powershell
+cd challenge-07
+npm install
+npm run dev
+```
+
+**Deploy (Netlify):** Base directory = `ai-engineering-challenges/challenge-07`
+
+→ Chi tiết: [`challenge-07/README.md`](./challenge-07/README.md)
+
+---
+
 ## Commit & push lên GitHub
 
 ```powershell
@@ -121,6 +158,8 @@ git push
 | Challenge 03 (Beginner) | 2–3 giờ |
 | Challenge 04 (Beginner) | 2–3 giờ |
 | Challenge 05 (Beginner) | 2–4 giờ |
-| **Tổng (5 bài Beginner)** | **~11–16 giờ** |
+| Challenge 06 (Intermediate) | 2–4 giờ |
+| Challenge 07 (Intermediate) | 3–5 giờ |
+| **Tổng (7 bài)** | **~16–25 giờ** |
 
 **Tổng ước lượng ban đầu:** ~8 giờ (theo đề bài Papaya)

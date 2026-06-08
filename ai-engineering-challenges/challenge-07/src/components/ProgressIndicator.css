@@ -1,0 +1,79 @@
+.progress-indicator {
+  margin-bottom: 2rem;
+}
+
+.progress-list {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+}
+
+.progress-item {
+  flex: 1;
+  min-width: 5.5rem;
+}
+
+.progress-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  cursor: default;
+  color: #6b7280;
+}
+
+.progress-button:not(:disabled) {
+  cursor: pointer;
+}
+
+.progress-button:not(:disabled):hover .progress-number {
+  border-color: #f97316;
+}
+
+.progress-item.complete .progress-number {
+  background: #16a34a;
+  border-color: #16a34a;
+  color: #fff;
+}
+
+.progress-item.current .progress-number {
+  background: #ea580c;
+  border-color: #ea580c;
+  color: #fff;
+}
+
+.progress-item.current .progress-label {
+  color: #ea580c;
+  font-weight: 600;
+}
+
+.progress-number {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid #d1d5db;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.progress-label {
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+@media (max-width: 640px) {
+  .progress-label {
+    font-size: 0.65rem;
+  }
+}
