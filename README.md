@@ -11,7 +11,7 @@
 | Phần | Thư mục | Trạng thái |
 |------|---------|------------|
 | Logical Questions | [`logical-questions/`](./logical-questions/) | ✅ Đã trả lời 7 câu |
-| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01 & 02 done |
+| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–03 done |
 
 ---
 
@@ -37,6 +37,7 @@
 |---|-----|--------|---------------------|
 | 01 | [Insurance Plan Comparison](./ai-engineering-challenges/challenge-01/) | Beginner | _pending deploy_ |
 | 02 | [Claims Data Cleanup & Report](./ai-engineering-challenges/challenge-02/) | Beginner | [Report](./ai-engineering-challenges/challenge-02/output/data_quality_report.md) |
+| 03 | [Claim Notification Email Templates](./ai-engineering-challenges/challenge-03/) | Beginner | _pending deploy_ |
 
 → Xem [`ai-engineering-challenges/README.md`](./ai-engineering-challenges/README.md)
 
@@ -74,6 +75,24 @@ Report written -> ...\output\data_quality_report.md
 ```
 
 Chi tiết: [`challenge-02/README.md`](./ai-engineering-challenges/challenge-02/README.md)
+
+---
+
+## Cách chạy Challenge 03
+
+**Yêu cầu:** Node.js 18+
+
+```powershell
+cd d:\hgk\papaya-fullstack-engineer-test\ai-engineering-challenges\challenge-03
+npm install
+npm run dev
+```
+
+Mở http://localhost:5173 → chọn event type để xem email preview.
+
+**Deploy preview (Netlify):** set Base directory = `ai-engineering-challenges/challenge-03`
+
+Chi tiết: [`challenge-03/README.md`](./ai-engineering-challenges/challenge-03/README.md)
 
 ---
 
