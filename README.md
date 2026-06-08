@@ -11,7 +11,7 @@
 | Phần | Thư mục | Trạng thái |
 |------|---------|------------|
 | Logical Questions | [`logical-questions/`](./logical-questions/) | ✅ Đã trả lời 7 câu |
-| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–03 done |
+| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–04 done |
 
 ---
 
@@ -38,6 +38,7 @@
 | 01 | [Insurance Plan Comparison](./ai-engineering-challenges/challenge-01/) | Beginner | _pending deploy_ |
 | 02 | [Claims Data Cleanup & Report](./ai-engineering-challenges/challenge-02/) | Beginner | [Report](./ai-engineering-challenges/challenge-02/output/data_quality_report.md) |
 | 03 | [Claim Notification Email Templates](./ai-engineering-challenges/challenge-03/) | Beginner | _pending deploy_ |
+| 04 | [Insurance Glossary Search App](./ai-engineering-challenges/challenge-04/) | Beginner | _pending deploy_ |
 
 → Xem [`ai-engineering-challenges/README.md`](./ai-engineering-challenges/README.md)
 
@@ -96,6 +97,24 @@ Chi tiết: [`challenge-03/README.md`](./ai-engineering-challenges/challenge-03/
 
 ---
 
+## Cách chạy Challenge 04
+
+**Yêu cầu:** Node.js 18+
+
+```powershell
+cd d:\hgk\papaya-fullstack-engineer-test\ai-engineering-challenges\challenge-04
+npm install
+npm run dev
+```
+
+Mở http://localhost:5173 → search, browse categories, click A–Z jump.
+
+**Deploy (Netlify):** set Base directory = `ai-engineering-challenges/challenge-04`
+
+Chi tiết: [`challenge-04/README.md`](./ai-engineering-challenges/challenge-04/README.md)
+
+---
+
 ## Cách commit & push lên GitHub
 
 Repo remote: `https://github.com/hagiakietcoder/papaya-fullstack-engineer-test.git`
@@ -116,7 +135,7 @@ git push -u origin main
 cd d:\hgk\papaya-fullstack-engineer-test
 
 git add .
-git commit -m "Update: add challenge 03 / live demo URL"
+git commit -m "Add AI challenge 04: insurance glossary search app"
 git push
 ```
 

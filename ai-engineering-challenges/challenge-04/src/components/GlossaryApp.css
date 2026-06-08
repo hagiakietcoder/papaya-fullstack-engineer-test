@@ -1,0 +1,85 @@
+.glossary-app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.glossary-app__hero {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.glossary-app__eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2563eb;
+}
+
+.glossary-app h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.85rem, 4vw, 2.6rem);
+  line-height: 1.15;
+  color: #0f172a;
+}
+
+.glossary-app__subtitle {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #475569;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.glossary-app__layout {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr) minmax(280px, 360px);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.glossary-app__browse {
+  min-width: 0;
+}
+
+.glossary-app__detail {
+  position: sticky;
+  top: 1.5rem;
+}
+
+.glossary-app__empty {
+  padding: 2rem;
+  text-align: center;
+  background: #ffffff;
+  border: 1px dashed #cbd5e1;
+  border-radius: 14px;
+  color: #64748b;
+}
+
+.glossary-app__empty h2 {
+  margin: 0 0 0.5rem;
+  color: #334155;
+}
+
+@media (max-width: 1100px) {
+  .glossary-app__layout {
+    grid-template-columns: 72px minmax(0, 1fr);
+  }
+
+  .glossary-app__detail {
+    position: static;
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .glossary-app__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .glossary-app__alphabet {
+    order: 3;
+  }
+}

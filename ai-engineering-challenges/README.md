@@ -1,7 +1,7 @@
 # AI Engineering Challenges
 
 **Cấp độ:** Beginner  
-**Trạng thái:** 🔄 Challenge 01–03 hoàn thành
+**Trạng thái:** 🔄 Challenge 01–04 hoàn thành
 
 ---
 
@@ -12,6 +12,7 @@
 | 01 | [Insurance Plan Comparison Page](./challenge-01/) | Beginner | 2–3 giờ | ✅ Done | Live URL: _pending deploy_ |
 | 02 | [Claims Data Cleanup & Report](./challenge-02/) | Beginner | 2–3 giờ | ✅ Done | [Report](./challenge-02/output/data_quality_report.md) |
 | 03 | [Claim Notification Email Templates](./challenge-03/) | Beginner | 2–3 giờ | ✅ Done | Live URL: _pending deploy_ |
+| 04 | [Insurance Glossary Search App](./challenge-04/) | Beginner | 2–3 giờ | ✅ Done | Live URL: _pending deploy_ |
 
 ---
 
@@ -46,17 +47,33 @@ python run.py
 
 **Tech stack:** React + TypeScript + Vite
 
-6 HTML email templates + preview page với sample data.
-
 ```powershell
 cd challenge-03
 npm install
 npm run dev
 ```
 
-**Deploy preview (Netlify):** Base directory = `ai-engineering-challenges/challenge-03`
+**Deploy (Netlify):** Base directory = `ai-engineering-challenges/challenge-03`
 
 → Chi tiết: [`challenge-03/README.md`](./challenge-03/README.md)
+
+---
+
+## Challenge 04 — Insurance Glossary Search App
+
+**Tech stack:** React + TypeScript + Vite
+
+46 insurance terms, live search, A–Z jump, related term links.
+
+```powershell
+cd challenge-04
+npm install
+npm run dev
+```
+
+**Deploy (Netlify):** Base directory = `ai-engineering-challenges/challenge-04`
+
+→ Chi tiết: [`challenge-04/README.md`](./challenge-04/README.md)
 
 ---
 
@@ -66,8 +83,8 @@ npm run dev
 cd d:\hgk\papaya-fullstack-engineer-test
 
 git add .
-git commit -m "Submit Papaya test: logical questions + AI challenges 01-03"
-git push -u origin main
+git commit -m "Add AI challenge 04: insurance glossary search app"
+git push
 ```
 
 **Repo:** https://github.com/hagiakietcoder/papaya-fullstack-engineer-test
@@ -83,6 +100,7 @@ git push -u origin main
 | Challenge 01 (Beginner) | 2–3 giờ |
 | Challenge 02 (Beginner) | 2–3 giờ |
 | Challenge 03 (Beginner) | 2–3 giờ |
-| **Tổng (3 bài Beginner)** | **~7–9 giờ** |
+| Challenge 04 (Beginner) | 2–3 giờ |
+| **Tổng (4 bài Beginner)** | **~9–12 giờ** |
 
 **Tổng ước lượng ban đầu:** ~8 giờ (theo đề bài Papaya)
