@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { POLICY_OPTIONS } from '../data/policies';
+import { PolicySelectDropdown } from './PolicySelectDropdown';
 import { PolicySummary } from './PolicySummary';
 import './PolicySummaryApp.css';
 
@@ -10,21 +11,11 @@ export function PolicySummaryApp() {
   return (
     <div className="policy-app">
       <div className="policy-app__toolbar">
-        <label className="policy-app__label" htmlFor="policy-select">
-          Select policy
-        </label>
-        <select
-          id="policy-select"
-          className="policy-app__select"
+        <PolicySelectDropdown
+          options={POLICY_OPTIONS}
           value={selectedPolicyId}
-          onChange={(event) => setSelectedPolicyId(event.target.value)}
-        >
-          {POLICY_OPTIONS.map((option) => (
-            <option key={option.id} value={option.id}>
-              {option.label}
-            </option>
-          ))}
-        </select>
+          onChange={setSelectedPolicyId}
+        />
         <p className="policy-app__hint">
           Switch between policies to see the generator adapt to different benefit structures.
         </p>
