@@ -1,7 +1,7 @@
 # AI Engineering Challenges
 
 **Cấp độ:** Beginner  
-**Trạng thái:** 🔄 Challenge 01–08 hoàn thành
+**Trạng thái:** 🔄 Challenge 01–09 hoàn thành
 
 ---
 
@@ -17,6 +17,7 @@
 | 06 | [Policy Benefits Calculator](./challenge-06/) | Intermediate | 2–4 giờ | ✅ Done | [Results](./challenge-06/src/data/expected-results.json) |
 | 07 | [Claims Intake Wizard](./challenge-07/) | Intermediate | 3–5 giờ | ✅ Done | Live URL: _pending deploy_ |
 | 08 | [Medical Document Extractor](./challenge-08/) | Advanced | 4–6 giờ | ✅ Done | [Results](./challenge-08/documents/extraction-results.json) |
+| 09 | [Claims Analytics Dashboard](./challenge-09/) | Intermediate | 3–5 giờ | ✅ Done | Live URL: _pending deploy_ |
 
 ---
 
@@ -152,6 +153,25 @@ npm run extract:all
 
 ---
 
+## Challenge 09 — Claims Analytics Dashboard
+
+**Tech stack:** React + TypeScript + Vite + Recharts
+
+5,000-claim dataset → interactive KPIs, 6 charts, global filters, drill-down table, CSV export.
+
+```powershell
+cd challenge-09
+npm install
+npm run generate-data
+npm run dev
+```
+
+**Deploy (Netlify):** Base directory = `ai-engineering-challenges/challenge-09`
+
+→ Chi tiết: [`challenge-09/README.md`](./challenge-09/README.md)
+
+---
+
 ## Commit & push lên GitHub
 
 ```powershell
@@ -180,6 +200,7 @@ git push
 | Challenge 06 (Intermediate) | 2–4 giờ |
 | Challenge 07 (Intermediate) | 3–5 giờ |
 | Challenge 08 (Advanced) | 4–6 giờ |
-| **Tổng (8 bài)** | **~20–31 giờ** |
+| Challenge 09 (Intermediate) | 3–5 giờ |
+| **Tổng (9 bài)** | **~23–36 giờ** |
 
 **Tổng ước lượng ban đầu:** ~8 giờ (theo đề bài Papaya)

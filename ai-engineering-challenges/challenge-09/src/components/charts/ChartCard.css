@@ -1,0 +1,52 @@
+.chart-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  min-height: 320px;
+}
+
+.chart-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.chart-card-header h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.chart-card-header p {
+  margin: 0.2rem 0 0;
+  font-size: 0.78rem;
+  color: #6b7280;
+}
+
+.chart-card-body {
+  width: 100%;
+  height: 260px;
+}
+
+.chart-toggle {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.chart-toggle button {
+  padding: 0.25rem 0.55rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.chart-toggle button.active {
+  background: #0f766e;
+  border-color: #0f766e;
+  color: #fff;
+}

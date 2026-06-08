@@ -1,0 +1,27 @@
+.app {
+  min-height: 100vh;
+  padding: 1.25rem 1rem 2rem;
+}
+
+.loading-state,
+.error-state {
+  max-width: 480px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  color: #4b5563;
+}
+
+.error-state {
+  border-color: #fca5a5;
+  color: #991b1b;
+}
+
+@media (min-width: 768px) {
+  .app {
+    padding: 1.5rem 1.25rem 2.5rem;
+  }
+}

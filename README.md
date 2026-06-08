@@ -11,7 +11,7 @@
 | Phần | Thư mục | Trạng thái |
 |------|---------|------------|
 | Logical Questions | [`logical-questions/`](./logical-questions/) | ✅ Đã trả lời 7 câu |
-| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–08 done |
+| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–09 done |
 
 ---
 
@@ -43,6 +43,7 @@
 | 06 | [Policy Benefits Calculator](./ai-engineering-challenges/challenge-06/) | Intermediate | [Results](./ai-engineering-challenges/challenge-06/src/data/expected-results.json) |
 | 07 | [Claims Intake Wizard](./ai-engineering-challenges/challenge-07/) | Intermediate | _pending deploy_ |
 | 08 | [Medical Document Extractor](./ai-engineering-challenges/challenge-08/) | Advanced | [Results](./ai-engineering-challenges/challenge-08/documents/extraction-results.json) |
+| 09 | [Claims Analytics Dashboard](./ai-engineering-challenges/challenge-09/) | Intermediate | _pending deploy_ |
 
 → Xem [`ai-engineering-challenges/README.md`](./ai-engineering-challenges/README.md)
 
@@ -200,6 +201,25 @@ Wrote 10 result(s) to ...\output\extraction-results.json
 Dùng LLM thật: copy `.env.example` → `.env`, set `LLM_PROVIDER=anthropic` hoặc `openai` + API key.
 
 Chi tiết: [`challenge-08/README.md`](./ai-engineering-challenges/challenge-08/README.md)
+
+---
+
+## Cách chạy Challenge 09
+
+**Yêu cầu:** Node.js 18+
+
+```powershell
+cd d:\hgk\papaya-fullstack-engineer-test\ai-engineering-challenges\challenge-09
+npm install
+npm run generate-data
+npm run dev
+```
+
+Mở http://localhost:5173 → dashboard với KPIs, charts, filters, và claims table.
+
+**Deploy (Netlify):** set Base directory = `ai-engineering-challenges/challenge-09`
+
+Chi tiết: [`challenge-09/README.md`](./ai-engineering-challenges/challenge-09/README.md)
 
 ---
 
