@@ -1,0 +1,96 @@
+{
+  "policy_number": "POL-2024-TH-CALC-001",
+  "effective_date": "2024-01-01",
+  "currency": "THB",
+  "deductible": {
+    "annual": 3000,
+    "applies_to": ["OUTPATIENT"]
+  },
+  "benefits": [
+    {
+      "type": "OUTPATIENT",
+      "annual_limit": 100000,
+      "waiting_period_days": 0,
+      "sub_benefits": [
+        {
+          "name": "Doctor Visit",
+          "limit_per_visit": 3000,
+          "visits_per_year": 5
+        },
+        {
+          "name": "Prescribed Medicine",
+          "limit_per_visit": 3000
+        },
+        {
+          "name": "Diagnostic Tests",
+          "limit_per_year": 20000
+        }
+      ]
+    },
+    {
+      "type": "INPATIENT",
+      "annual_limit": 500000,
+      "waiting_period_days": 0,
+      "sub_benefits": [
+        {
+          "name": "Room & Board",
+          "limit_per_day": 8000,
+          "max_days": 120
+        },
+        {
+          "name": "Surgery",
+          "limit_per_event": 500000
+        },
+        {
+          "name": "ICU",
+          "limit_per_day": 16000,
+          "max_days": 30
+        },
+        {
+          "name": "Ambulance",
+          "limit_per_event": 5000
+        }
+      ]
+    },
+    {
+      "type": "DENTAL",
+      "annual_limit": 30000,
+      "waiting_period_days": 90,
+      "sub_benefits": [
+        {
+          "name": "Basic Dental",
+          "limit_per_year": 20000
+        }
+      ]
+    },
+    {
+      "type": "MATERNITY",
+      "lifetime_limit": 200000,
+      "waiting_period_days": 270,
+      "sub_benefits": [
+        {
+          "name": "Normal Delivery",
+          "limit_per_event": 100000
+        }
+      ]
+    }
+  ],
+  "copay": {
+    "outpatient": { "percentage": 20, "max_per_visit": 500 },
+    "inpatient": { "percentage": 0 },
+    "dental": { "percentage": 30 },
+    "maternity": { "percentage": 10 }
+  },
+  "exclusions": [
+    {
+      "match": "cosmetic",
+      "reason": "Cosmetic procedures are excluded under this policy.",
+      "match_field": "diagnosis"
+    },
+    {
+      "match": "pre-existing",
+      "reason": "Pre-existing condition treatment is excluded during the waiting period for pre-existing conditions.",
+      "match_field": "diagnosis"
+    }
+  ]
+}

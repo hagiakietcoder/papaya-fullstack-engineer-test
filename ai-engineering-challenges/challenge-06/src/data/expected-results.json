@@ -1,0 +1,273 @@
+{
+  "results": [
+    {
+      "expense_id": "EXP-001",
+      "submitted_amount": 2500,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 2500,
+      "member_pays": 2500,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "Deductible applied: 2,500 THB. Covered: 0 THB. Member pays: 2,500 THB.",
+      "remaining_annual_limit": 100000,
+      "remaining_visit_limit": 4
+    },
+    {
+      "expense_id": "EXP-002",
+      "submitted_amount": 5000,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 5000,
+      "decision": "DENIED",
+      "reason": "Waiting period not satisfied. 90 days required; only 45 days elapsed since policy effective date.",
+      "remaining_annual_limit": 30000
+    },
+    {
+      "expense_id": "EXP-003",
+      "submitted_amount": 1800,
+      "covered_amount": 1040,
+      "copay_amount": 260,
+      "deductible_amount": 500,
+      "member_pays": 760,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "Deductible applied: 500 THB. 20% copay applied (260 THB). Covered: 1,040 THB. Member pays: 760 THB.",
+      "remaining_annual_limit": 98960,
+      "remaining_visit_limit": 3
+    },
+    {
+      "expense_id": "EXP-004",
+      "submitted_amount": 3200,
+      "covered_amount": 2500,
+      "copay_amount": 500,
+      "deductible_amount": 0,
+      "member_pays": 700,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "Capped to per-visit limit of 3,000 THB. 20% copay applied (500 THB). Covered: 2,500 THB. Member pays: 700 THB.",
+      "remaining_annual_limit": 96460,
+      "remaining_visit_limit": 2
+    },
+    {
+      "expense_id": "EXP-005",
+      "submitted_amount": 1500,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 1500,
+      "decision": "DENIED",
+      "reason": "Cosmetic procedures are excluded under this policy.",
+      "remaining_annual_limit": 96460
+    },
+    {
+      "expense_id": "EXP-006",
+      "submitted_amount": 1500,
+      "covered_amount": 1200,
+      "copay_amount": 300,
+      "deductible_amount": 0,
+      "member_pays": 300,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "20% copay applied (300 THB). Covered: 1,200 THB. Member pays: 300 THB.",
+      "remaining_annual_limit": 95260
+    },
+    {
+      "expense_id": "EXP-007",
+      "submitted_amount": 2200,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 2200,
+      "decision": "DENIED",
+      "reason": "Pre-existing condition treatment is excluded during the waiting period for pre-existing conditions.",
+      "remaining_annual_limit": 95260
+    },
+    {
+      "expense_id": "EXP-008",
+      "submitted_amount": 22000,
+      "covered_amount": 19500,
+      "copay_amount": 500,
+      "deductible_amount": 0,
+      "member_pays": 2500,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "20% copay applied (500 THB). Covered: 19,500 THB. Member pays: 2,500 THB.",
+      "remaining_annual_limit": 75760,
+      "remaining_sub_benefit_limit": 0
+    },
+    {
+      "expense_id": "EXP-009",
+      "submitted_amount": 150000,
+      "covered_amount": 150000,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 0,
+      "decision": "COVERED",
+      "reason": "Covered: 150,000 THB. Member pays: 0 THB.",
+      "remaining_annual_limit": 350000
+    },
+    {
+      "expense_id": "EXP-010",
+      "submitted_amount": 8000,
+      "covered_amount": 5600,
+      "copay_amount": 2400,
+      "deductible_amount": 0,
+      "member_pays": 2400,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "30% copay applied (2,400 THB). Covered: 5,600 THB. Member pays: 2,400 THB.",
+      "remaining_annual_limit": 24400,
+      "remaining_sub_benefit_limit": 12000
+    },
+    {
+      "expense_id": "EXP-011",
+      "submitted_amount": 2800,
+      "covered_amount": 2300,
+      "copay_amount": 500,
+      "deductible_amount": 0,
+      "member_pays": 500,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "20% copay applied (500 THB). Covered: 2,300 THB. Member pays: 500 THB.",
+      "remaining_annual_limit": 73460,
+      "remaining_visit_limit": 1
+    },
+    {
+      "expense_id": "EXP-012",
+      "submitted_amount": 100000,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 100000,
+      "decision": "DENIED",
+      "reason": "Waiting period not satisfied. 270 days required; only 152 days elapsed since policy effective date.",
+      "remaining_annual_limit": 200000
+    },
+    {
+      "expense_id": "EXP-013",
+      "submitted_amount": 400000,
+      "covered_amount": 350000,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 50000,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "Reduced due to remaining annual benefit limit. Covered: 350,000 THB. Member pays: 50,000 THB.",
+      "remaining_annual_limit": 0
+    },
+    {
+      "expense_id": "EXP-014",
+      "submitted_amount": 150000,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 150000,
+      "decision": "DENIED",
+      "reason": "Annual benefit limit exhausted for INPATIENT.",
+      "remaining_annual_limit": 0
+    },
+    {
+      "expense_id": "EXP-015",
+      "submitted_amount": 200000,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 200000,
+      "decision": "DENIED",
+      "reason": "Annual benefit limit exhausted for INPATIENT.",
+      "remaining_annual_limit": 0
+    },
+    {
+      "expense_id": "EXP-016",
+      "submitted_amount": 8000,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 8000,
+      "decision": "DENIED",
+      "reason": "Annual benefit limit exhausted for INPATIENT.",
+      "remaining_annual_limit": 0
+    },
+    {
+      "expense_id": "EXP-017",
+      "submitted_amount": 5000,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 5000,
+      "decision": "DENIED",
+      "reason": "Annual sub-benefit limit exhausted for Diagnostic Tests.",
+      "remaining_annual_limit": 73460,
+      "remaining_sub_benefit_limit": 0
+    },
+    {
+      "expense_id": "EXP-018",
+      "submitted_amount": 2000,
+      "covered_amount": 1600,
+      "copay_amount": 400,
+      "deductible_amount": 0,
+      "member_pays": 400,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "20% copay applied (400 THB). Covered: 1,600 THB. Member pays: 400 THB.",
+      "remaining_annual_limit": 71860,
+      "remaining_visit_limit": 0
+    },
+    {
+      "expense_id": "EXP-019",
+      "submitted_amount": 2000,
+      "covered_amount": 0,
+      "copay_amount": 0,
+      "deductible_amount": 0,
+      "member_pays": 2000,
+      "decision": "DENIED",
+      "reason": "Annual visit limit exhausted for Doctor Visit.",
+      "remaining_annual_limit": 71860,
+      "remaining_visit_limit": 0
+    },
+    {
+      "expense_id": "EXP-020",
+      "submitted_amount": 12000,
+      "covered_amount": 2500,
+      "copay_amount": 500,
+      "deductible_amount": 0,
+      "member_pays": 9500,
+      "decision": "PARTIALLY_COVERED",
+      "reason": "Capped to per-visit limit of 3,000 THB. 20% copay applied (500 THB). Covered: 2,500 THB. Member pays: 9,500 THB.",
+      "remaining_annual_limit": 69360
+    }
+  ],
+  "summary": {
+    "policy_number": "POL-2024-TH-CALC-001",
+    "currency": "THB",
+    "total_submitted": 1079500,
+    "total_covered": 536240,
+    "total_member_pays": 543260,
+    "remaining_balances": [
+      {
+        "benefit_type": "OUTPATIENT",
+        "remaining_annual_limit": 69360,
+        "visits_used": {
+          "Doctor Visit": 5
+        },
+        "sub_benefit_used": {
+          "Diagnostic Tests": 20000
+        }
+      },
+      {
+        "benefit_type": "INPATIENT",
+        "remaining_annual_limit": 0,
+        "visits_used": {},
+        "sub_benefit_used": {}
+      },
+      {
+        "benefit_type": "DENTAL",
+        "remaining_annual_limit": 24400,
+        "visits_used": {},
+        "sub_benefit_used": {
+          "Basic Dental": 8000
+        }
+      },
+      {
+        "benefit_type": "MATERNITY",
+        "remaining_annual_limit": 200000,
+        "remaining_lifetime_limit": 200000,
+        "visits_used": {},
+        "sub_benefit_used": {}
+      }
+    ]
+  }
+}
