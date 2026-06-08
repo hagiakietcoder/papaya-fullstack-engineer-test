@@ -1,0 +1,32 @@
+{
+  "id": "receipt-03",
+  "filename": "receipt-03-phyathai-emergency",
+  "document_type": "receipt",
+  "fields": {
+    "hospital_name": "Phyathai 2 Hospital",
+    "patient_name": "Thanawat Prasert",
+    "date": "2024-08-03",
+    "items": [
+      {
+        "description": "Emergency room visit",
+        "quantity": 1,
+        "unit_price": 3200,
+        "total": 3200
+      },
+      {
+        "description": "Wound dressing",
+        "quantity": 1,
+        "unit_price": 650,
+        "total": 650
+      },
+      {
+        "description": "Tetanus vaccine",
+        "quantity": 1,
+        "unit_price": 890,
+        "total": 890
+      }
+    ],
+    "grand_total": 4740,
+    "payment_method": "Insurance Direct Billing"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prescription-01",
+  "filename": "prescription-01-dr-somchai",
+  "document_type": "prescription",
+  "fields": {
+    "doctor_name": "Dr. Somchai Rattanakul",
+    "patient_name": "Somchai Prasert",
+    "date": "2024-03-15",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "dosage": "500mg",
+        "frequency": "3 times daily",
+        "duration": "7 days",
+        "quantity": 21
+      },
+      {
+        "name": "Bromhexine syrup",
+        "dosage": "10ml",
+        "frequency": "3 times daily",
+        "duration": "5 days",
+        "quantity": 1
+      }
+    ]
+  }
+}

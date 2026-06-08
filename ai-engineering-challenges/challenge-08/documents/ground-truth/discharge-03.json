@@ -1,0 +1,23 @@
+{
+  "id": "discharge-03",
+  "filename": "discharge-03-phyathai-maternity",
+  "document_type": "discharge_summary",
+  "fields": {
+    "hospital_name": "Phyathai 2 Hospital",
+    "patient_name": "Naree Prasert",
+    "admission_date": "2024-09-10",
+    "discharge_date": "2024-09-13",
+    "diagnosis": {
+      "primary": "Normal spontaneous vaginal delivery",
+      "secondary": [
+        "Gestational hypertension — resolved"
+      ]
+    },
+    "procedures_performed": [
+      "Vaginal delivery",
+      "Neonatal assessment"
+    ],
+    "attending_physician": "Dr. Malee Srisuk",
+    "discharge_instructions": "Breastfeeding support provided. Postpartum check-up in 6 weeks. Watch for excessive bleeding."
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Emergency Receipt</title>
+  <style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 24px; color: #1f2937; background: #fff; }
+  .doc { max-width: 720px; margin: 0 auto; border: 1px solid #d1d5db; padding: 28px; }
+  .header { display: flex; justify-content: space-between; border-bottom: 2px solid #0f766e; padding-bottom: 12px; margin-bottom: 20px; }
+  .hospital { font-size: 1.35rem; font-weight: 700; color: #0f766e; }
+  .meta { font-size: 0.85rem; color: #4b5563; text-align: right; }
+  h2 { font-size: 1rem; margin: 18px 0 8px; color: #111827; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 8px; }
+  th, td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; }
+  th { background: #f3f4f6; }
+  .total-row td { font-weight: 700; }
+  .section { margin-bottom: 14px; line-height: 1.5; }
+  .label { font-weight: 600; color: #374151; }
+  .stamp { margin-top: 24px; font-size: 0.8rem; color: #6b7280; }
+</style>
+</head>
+<body>
+  <div class="doc">
+      <div class="header">
+        <div class="hospital">Phyathai 2 Hospital</div>
+        <div class="meta">ER Receipt: PT2-ER-11902<br/>03/08/2024</div>
+      </div>
+      <div class="section"><span class="label">Patient Name:</span> Thanawat Prasert</div>
+      <table>
+        <thead><tr><th>Service</th><th>Qty</th><th>Unit Price</th><th>Total</th></tr></thead>
+        <tbody>
+          <tr><td>Emergency room visit</td><td>1</td><td>3,200.00</td><td>3,200.00</td></tr>
+          <tr><td>Wound dressing</td><td>1</td><td>650.00</td><td>650.00</td></tr>
+          <tr><td>Tetanus vaccine</td><td>1</td><td>890.00</td><td>890.00</td></tr>
+          <tr class="total-row"><td colspan="3">Grand Total</td><td>4,740.00</td></tr>
+        </tbody>
+      </table>
+      <div class="section"><span class="label">Payment Method:</span> Insurance Direct Billing</div>
+    </div>
+</body>
+</html>

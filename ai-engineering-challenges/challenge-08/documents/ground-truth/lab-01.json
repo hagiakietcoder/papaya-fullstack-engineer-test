@@ -1,0 +1,40 @@
+{
+  "id": "lab-01",
+  "filename": "lab-01-bangkok-cbc",
+  "document_type": "lab_report",
+  "fields": {
+    "lab_name": "Bangkok Hospital Laboratory",
+    "patient_name": "Somchai Prasert",
+    "date": "2024-03-15",
+    "tests": [
+      {
+        "test_name": "WBC",
+        "result": "11.2",
+        "unit": "10^3/uL",
+        "reference_range": "4.0-11.0",
+        "flag": "high"
+      },
+      {
+        "test_name": "RBC",
+        "result": "4.85",
+        "unit": "10^6/uL",
+        "reference_range": "4.5-5.5",
+        "flag": "normal"
+      },
+      {
+        "test_name": "Hemoglobin",
+        "result": "14.1",
+        "unit": "g/dL",
+        "reference_range": "13.0-17.0",
+        "flag": "normal"
+      },
+      {
+        "test_name": "Platelet",
+        "result": "245",
+        "unit": "10^3/uL",
+        "reference_range": "150-400",
+        "flag": "normal"
+      }
+    ]
+  }
+}

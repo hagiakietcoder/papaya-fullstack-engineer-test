@@ -1,0 +1,32 @@
+{
+  "id": "receipt-01",
+  "filename": "receipt-01-bangkok-outpatient",
+  "document_type": "receipt",
+  "fields": {
+    "hospital_name": "Bangkok Hospital",
+    "patient_name": "Somchai Prasert",
+    "date": "2024-03-15",
+    "items": [
+      {
+        "description": "General physician consultation",
+        "quantity": 1,
+        "unit_price": 1500,
+        "total": 1500
+      },
+      {
+        "description": "Chest X-ray",
+        "quantity": 1,
+        "unit_price": 2200,
+        "total": 2200
+      },
+      {
+        "description": "Blood test — CBC",
+        "quantity": 1,
+        "unit_price": 850,
+        "total": 850
+      }
+    ],
+    "grand_total": 4550,
+    "payment_method": "Credit Card"
+  }
+}

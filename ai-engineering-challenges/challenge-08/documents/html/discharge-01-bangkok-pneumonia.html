@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Discharge Summary</title>
+  <style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 24px; color: #1f2937; background: #fff; }
+  .doc { max-width: 720px; margin: 0 auto; border: 1px solid #d1d5db; padding: 28px; }
+  .header { display: flex; justify-content: space-between; border-bottom: 2px solid #0f766e; padding-bottom: 12px; margin-bottom: 20px; }
+  .hospital { font-size: 1.35rem; font-weight: 700; color: #0f766e; }
+  .meta { font-size: 0.85rem; color: #4b5563; text-align: right; }
+  h2 { font-size: 1rem; margin: 18px 0 8px; color: #111827; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 8px; }
+  th, td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; }
+  th { background: #f3f4f6; }
+  .total-row td { font-weight: 700; }
+  .section { margin-bottom: 14px; line-height: 1.5; }
+  .label { font-weight: 600; color: #374151; }
+  .stamp { margin-top: 24px; font-size: 0.8rem; color: #6b7280; }
+</style>
+</head>
+<body>
+  <div class="doc">
+      <div class="header">
+        <div class="hospital">Bangkok Hospital</div>
+        <div class="meta">Discharge Summary<br/>DS-2024-04182</div>
+      </div>
+      <div class="section"><span class="label">Patient:</span> Somchai Prasert</div>
+      <div class="section"><span class="label">Admission Date:</span> 02 Apr 2024</div>
+      <div class="section"><span class="label">Discharge Date:</span> 06 Apr 2024</div>
+      <h2>Diagnosis</h2>
+      <div class="section"><span class="label">Primary:</span> Community-acquired pneumonia</div>
+      <div class="section"><span class="label">Secondary:</span> Hypertension; Type 2 diabetes mellitus</div>
+      <h2>Procedures Performed</h2>
+      <ul><li>IV antibiotic therapy</li><li>Chest physiotherapy</li><li>Oxygen support</li></ul>
+      <div class="section"><span class="label">Attending Physician:</span> Dr. Anan Chaiyaporn</div>
+      <h2>Discharge Instructions</h2>
+      <div class="section">Complete oral antibiotics for 7 days. Follow up in OPD in 2 weeks. Return if fever recurs.</div>
+    </div>
+</body>
+</html>

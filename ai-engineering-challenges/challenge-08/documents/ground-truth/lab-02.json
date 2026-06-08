@@ -1,0 +1,40 @@
+{
+  "id": "lab-02",
+  "filename": "lab-02-samitivej-lipid",
+  "document_type": "lab_report",
+  "fields": {
+    "lab_name": "Samitivej Clinical Laboratory",
+    "patient_name": "Naree Prasert",
+    "date": "2024-07-08",
+    "tests": [
+      {
+        "test_name": "Total Cholesterol",
+        "result": "228",
+        "unit": "mg/dL",
+        "reference_range": "<200",
+        "flag": "high"
+      },
+      {
+        "test_name": "LDL Cholesterol",
+        "result": "152",
+        "unit": "mg/dL",
+        "reference_range": "<100",
+        "flag": "high"
+      },
+      {
+        "test_name": "HDL Cholesterol",
+        "result": "48",
+        "unit": "mg/dL",
+        "reference_range": ">50",
+        "flag": "low"
+      },
+      {
+        "test_name": "Triglycerides",
+        "result": "165",
+        "unit": "mg/dL",
+        "reference_range": "<150",
+        "flag": "high"
+      }
+    ]
+  }
+}

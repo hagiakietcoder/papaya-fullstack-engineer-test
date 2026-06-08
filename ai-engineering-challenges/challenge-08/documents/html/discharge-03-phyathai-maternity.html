@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Discharge Summary</title>
+  <style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 24px; color: #1f2937; background: #fff; }
+  .doc { max-width: 720px; margin: 0 auto; border: 1px solid #d1d5db; padding: 28px; }
+  .header { display: flex; justify-content: space-between; border-bottom: 2px solid #0f766e; padding-bottom: 12px; margin-bottom: 20px; }
+  .hospital { font-size: 1.35rem; font-weight: 700; color: #0f766e; }
+  .meta { font-size: 0.85rem; color: #4b5563; text-align: right; }
+  h2 { font-size: 1rem; margin: 18px 0 8px; color: #111827; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 8px; }
+  th, td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; }
+  th { background: #f3f4f6; }
+  .total-row td { font-weight: 700; }
+  .section { margin-bottom: 14px; line-height: 1.5; }
+  .label { font-weight: 600; color: #374151; }
+  .stamp { margin-top: 24px; font-size: 0.8rem; color: #6b7280; }
+</style>
+</head>
+<body>
+  <div class="doc">
+      <div class="header">
+        <div class="hospital">Phyathai 2 Hospital — Maternity</div>
+        <div class="meta">Date issued: 13 Sep 2024</div>
+      </div>
+      <div class="section"><span class="label">Patient:</span> Naree Prasert</div>
+      <div class="section">Admitted: 10-Sep-2024 | Discharged: 13-Sep-2024</div>
+      <h2>Diagnosis</h2>
+      <div class="section">Primary diagnosis: Normal spontaneous vaginal delivery</div>
+      <div class="section">Secondary: Gestational hypertension — resolved</div>
+      <h2>Procedures Performed</h2>
+      <ul><li>Vaginal delivery</li><li>Neonatal assessment</li></ul>
+      <div class="section"><span class="label">Attending Physician:</span> Dr. Malee Srisuk</div>
+      <h2>Discharge Instructions</h2>
+      <div class="section">Breastfeeding support provided. Postpartum check-up in 6 weeks. Watch for excessive bleeding.</div>
+    </div>
+</body>
+</html>

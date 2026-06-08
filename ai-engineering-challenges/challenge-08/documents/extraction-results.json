@@ -1,0 +1,515 @@
+{
+  "provider": "mock",
+  "results": [
+    {
+      "document_id": "discharge-01",
+      "source_file": "discharge-01-bangkok-pneumonia.png",
+      "document_type": "discharge_summary",
+      "confidence": 0.96,
+      "fields": {
+        "hospital_name": {
+          "value": "Bangkok Hospital",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Somchai Prasert",
+          "confidence": 0.94
+        },
+        "admission_date": {
+          "value": "2024-04-02",
+          "confidence": 0.94
+        },
+        "discharge_date": {
+          "value": "2024-04-06",
+          "confidence": 0.94
+        },
+        "diagnosis": {
+          "value": {
+            "primary": "Community-acquired pneumonia",
+            "secondary": [
+              "Hypertension",
+              "Type 2 diabetes mellitus"
+            ]
+          },
+          "confidence": 0.94
+        },
+        "procedures_performed": {
+          "value": [
+            "IV antibiotic therapy",
+            "Chest physiotherapy",
+            "Oxygen support"
+          ],
+          "confidence": 0.94
+        },
+        "attending_physician": {
+          "value": "Dr. Anan Chaiyaporn",
+          "confidence": 0.94
+        },
+        "discharge_instructions": {
+          "value": "Complete oral antibiotics for 7 days. Follow up in OPD in 2 weeks. Return if fever recurs.",
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "discharge-02",
+      "source_file": "discharge-02-samitivej-appendectomy.png",
+      "document_type": "discharge_summary",
+      "confidence": 0.96,
+      "fields": {
+        "hospital_name": {
+          "value": "Samitivej Sukhumvit Hospital",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Pimchanok Prasert",
+          "confidence": 0.94
+        },
+        "admission_date": {
+          "value": "2024-06-18",
+          "confidence": 0.94
+        },
+        "discharge_date": {
+          "value": "2024-06-21",
+          "confidence": 0.94
+        },
+        "diagnosis": {
+          "value": {
+            "primary": "Acute appendicitis",
+            "secondary": []
+          },
+          "confidence": 0.94
+        },
+        "procedures_performed": {
+          "value": [
+            "Laparoscopic appendectomy"
+          ],
+          "confidence": 0.94
+        },
+        "attending_physician": {
+          "value": "Dr. Siriporn Wattana",
+          "confidence": 0.94
+        },
+        "discharge_instructions": {
+          "value": "Keep incision dry for 48 hours. No heavy lifting for 2 weeks. Pain medication as prescribed.",
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "discharge-03",
+      "source_file": "discharge-03-phyathai-maternity.png",
+      "document_type": "discharge_summary",
+      "confidence": 0.96,
+      "fields": {
+        "hospital_name": {
+          "value": "Phyathai 2 Hospital",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Naree Prasert",
+          "confidence": 0.94
+        },
+        "admission_date": {
+          "value": "2024-09-10",
+          "confidence": 0.94
+        },
+        "discharge_date": {
+          "value": "2024-09-13",
+          "confidence": 0.94
+        },
+        "diagnosis": {
+          "value": {
+            "primary": "Normal spontaneous vaginal delivery",
+            "secondary": [
+              "Gestational hypertension — resolved"
+            ]
+          },
+          "confidence": 0.94
+        },
+        "procedures_performed": {
+          "value": [
+            "Vaginal delivery",
+            "Neonatal assessment"
+          ],
+          "confidence": 0.94
+        },
+        "attending_physician": {
+          "value": "Dr. Malee Srisuk",
+          "confidence": 0.94
+        },
+        "discharge_instructions": {
+          "value": "Breastfeeding support provided. Postpartum check-up in 6 weeks. Watch for excessive bleeding.",
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "lab-01",
+      "source_file": "lab-01-bangkok-cbc.png",
+      "document_type": "lab_report",
+      "confidence": 0.96,
+      "fields": {
+        "lab_name": {
+          "value": "Bangkok Hospital Laboratory",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Somchai Prasert",
+          "confidence": 0.94
+        },
+        "date": {
+          "value": "2024-03-15",
+          "confidence": 0.94
+        },
+        "tests": {
+          "value": [
+            {
+              "test_name": "WBC",
+              "result": "11.2",
+              "unit": "10^3/uL",
+              "reference_range": "4.0-11.0",
+              "flag": "high"
+            },
+            {
+              "test_name": "RBC",
+              "result": "4.85",
+              "unit": "10^6/uL",
+              "reference_range": "4.5-5.5",
+              "flag": "normal"
+            },
+            {
+              "test_name": "Hemoglobin",
+              "result": "14.1",
+              "unit": "g/dL",
+              "reference_range": "13.0-17.0",
+              "flag": "normal"
+            },
+            {
+              "test_name": "Platelet",
+              "result": "245",
+              "unit": "10^3/uL",
+              "reference_range": "150-400",
+              "flag": "normal"
+            }
+          ],
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "lab-02",
+      "source_file": "lab-02-samitivej-lipid.png",
+      "document_type": "lab_report",
+      "confidence": 0.96,
+      "fields": {
+        "lab_name": {
+          "value": "Samitivej Clinical Laboratory",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Naree Prasert",
+          "confidence": 0.94
+        },
+        "date": {
+          "value": "2024-07-08",
+          "confidence": 0.94
+        },
+        "tests": {
+          "value": [
+            {
+              "test_name": "Total Cholesterol",
+              "result": "228",
+              "unit": "mg/dL",
+              "reference_range": "<200",
+              "flag": "high"
+            },
+            {
+              "test_name": "LDL Cholesterol",
+              "result": "152",
+              "unit": "mg/dL",
+              "reference_range": "<100",
+              "flag": "high"
+            },
+            {
+              "test_name": "HDL Cholesterol",
+              "result": "48",
+              "unit": "mg/dL",
+              "reference_range": ">50",
+              "flag": "low"
+            },
+            {
+              "test_name": "Triglycerides",
+              "result": "165",
+              "unit": "mg/dL",
+              "reference_range": "<150",
+              "flag": "high"
+            }
+          ],
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "prescription-01",
+      "source_file": "prescription-01-dr-somchai.png",
+      "document_type": "prescription",
+      "confidence": 0.96,
+      "fields": {
+        "doctor_name": {
+          "value": "Dr. Somchai Rattanakul",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Somchai Prasert",
+          "confidence": 0.94
+        },
+        "date": {
+          "value": "2024-03-15",
+          "confidence": 0.94
+        },
+        "medications": {
+          "value": [
+            {
+              "name": "Amoxicillin",
+              "dosage": "500mg",
+              "frequency": "3 times daily",
+              "duration": "7 days",
+              "quantity": 21
+            },
+            {
+              "name": "Bromhexine syrup",
+              "dosage": "10ml",
+              "frequency": "3 times daily",
+              "duration": "5 days",
+              "quantity": 1
+            }
+          ],
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "prescription-02",
+      "source_file": "prescription-02-dr-naree.png",
+      "document_type": "prescription",
+      "confidence": 0.96,
+      "fields": {
+        "doctor_name": {
+          "value": "Dr. Naree Pongpattana",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Naree Prasert",
+          "confidence": 0.94
+        },
+        "date": {
+          "value": "2024-07-08",
+          "confidence": 0.94
+        },
+        "medications": {
+          "value": [
+            {
+              "name": "Atorvastatin",
+              "dosage": "20mg",
+              "frequency": "Once daily at night",
+              "duration": "90 days",
+              "quantity": 90
+            },
+            {
+              "name": "Aspirin",
+              "dosage": "81mg",
+              "frequency": "Once daily",
+              "duration": "90 days",
+              "quantity": 90
+            }
+          ],
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "receipt-01",
+      "source_file": "receipt-01-bangkok-outpatient.png",
+      "document_type": "receipt",
+      "confidence": 0.96,
+      "fields": {
+        "hospital_name": {
+          "value": "Bangkok Hospital",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Somchai Prasert",
+          "confidence": 0.94
+        },
+        "date": {
+          "value": "2024-03-15",
+          "confidence": 0.94
+        },
+        "items": {
+          "value": [
+            {
+              "description": "General physician consultation",
+              "quantity": 1,
+              "unit_price": 1500,
+              "total": 1500
+            },
+            {
+              "description": "Chest X-ray",
+              "quantity": 1,
+              "unit_price": 2200,
+              "total": 2200
+            },
+            {
+              "description": "Blood test — CBC",
+              "quantity": 1,
+              "unit_price": 850,
+              "total": 850
+            }
+          ],
+          "confidence": 0.94
+        },
+        "grand_total": {
+          "value": 4550,
+          "confidence": 0.94
+        },
+        "payment_method": {
+          "value": "Credit Card",
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "receipt-02",
+      "source_file": "receipt-02-samitivej-pharmacy.png",
+      "document_type": "receipt",
+      "confidence": 0.96,
+      "fields": {
+        "hospital_name": {
+          "value": "Samitivej Sukhumvit Hospital",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Naree Prasert",
+          "confidence": 0.94
+        },
+        "date": {
+          "value": "2024-05-22",
+          "confidence": 0.94
+        },
+        "items": {
+          "value": [
+            {
+              "description": "Amoxicillin 500mg",
+              "quantity": 2,
+              "unit_price": 180,
+              "total": 360
+            },
+            {
+              "description": "Paracetamol 500mg",
+              "quantity": 1,
+              "unit_price": 95,
+              "total": 95
+            },
+            {
+              "description": "Pharmacy dispensing fee",
+              "quantity": 1,
+              "unit_price": 120,
+              "total": 120
+            }
+          ],
+          "confidence": 0.94
+        },
+        "grand_total": {
+          "value": 575,
+          "confidence": 0.94
+        },
+        "payment_method": {
+          "value": "Cash",
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    },
+    {
+      "document_id": "receipt-03",
+      "source_file": "receipt-03-phyathai-emergency.png",
+      "document_type": "receipt",
+      "confidence": 0.96,
+      "fields": {
+        "hospital_name": {
+          "value": "Phyathai 2 Hospital",
+          "confidence": 0.94
+        },
+        "patient_name": {
+          "value": "Thanawat Prasert",
+          "confidence": 0.94
+        },
+        "date": {
+          "value": "2024-08-03",
+          "confidence": 0.94
+        },
+        "items": {
+          "value": [
+            {
+              "description": "Emergency room visit",
+              "quantity": 1,
+              "unit_price": 3200,
+              "total": 3200
+            },
+            {
+              "description": "Wound dressing",
+              "quantity": 1,
+              "unit_price": 650,
+              "total": 650
+            },
+            {
+              "description": "Tetanus vaccine",
+              "quantity": 1,
+              "unit_price": 890,
+              "total": 890
+            }
+          ],
+          "confidence": 0.94
+        },
+        "grand_total": {
+          "value": 4740,
+          "confidence": 0.94
+        },
+        "payment_method": {
+          "value": "Insurance Direct Billing",
+          "confidence": 0.94
+        }
+      },
+      "validation_errors": [],
+      "raw_model_response": "",
+      "processing_mode": "mock"
+    }
+  ]
+}

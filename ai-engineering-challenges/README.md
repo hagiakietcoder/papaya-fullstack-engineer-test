@@ -1,7 +1,7 @@
 # AI Engineering Challenges
 
 **Cấp độ:** Beginner  
-**Trạng thái:** 🔄 Challenge 01–07 hoàn thành
+**Trạng thái:** 🔄 Challenge 01–08 hoàn thành
 
 ---
 
@@ -16,6 +16,7 @@
 | 05 | [Policy Summary Generator](./challenge-05/) | Beginner | 2–4 giờ | ✅ Done | Live URL: _pending deploy_ |
 | 06 | [Policy Benefits Calculator](./challenge-06/) | Intermediate | 2–4 giờ | ✅ Done | [Results](./challenge-06/src/data/expected-results.json) |
 | 07 | [Claims Intake Wizard](./challenge-07/) | Intermediate | 3–5 giờ | ✅ Done | Live URL: _pending deploy_ |
+| 08 | [Medical Document Extractor](./challenge-08/) | Advanced | 4–6 giờ | ✅ Done | [Results](./challenge-08/documents/extraction-results.json) |
 
 ---
 
@@ -133,6 +134,24 @@ npm run dev
 
 ---
 
+## Challenge 08 — Medical Document Extractor
+
+**Tech stack:** TypeScript + Vision LLM (Claude / GPT-4o)
+
+10 mock medical documents → structured JSON extraction with confidence scores and validation.
+
+```powershell
+cd challenge-08
+npm install
+npm run setup-docs
+npm test
+npm run extract:all
+```
+
+→ Chi tiết: [`challenge-08/README.md`](./challenge-08/README.md) · [`PROMPT_ENGINEERING.md`](./challenge-08/PROMPT_ENGINEERING.md)
+
+---
+
 ## Commit & push lên GitHub
 
 ```powershell
@@ -160,6 +179,7 @@ git push
 | Challenge 05 (Beginner) | 2–4 giờ |
 | Challenge 06 (Intermediate) | 2–4 giờ |
 | Challenge 07 (Intermediate) | 3–5 giờ |
-| **Tổng (7 bài)** | **~16–25 giờ** |
+| Challenge 08 (Advanced) | 4–6 giờ |
+| **Tổng (8 bài)** | **~20–31 giờ** |
 
 **Tổng ước lượng ban đầu:** ~8 giờ (theo đề bài Papaya)

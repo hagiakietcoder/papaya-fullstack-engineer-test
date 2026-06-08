@@ -1,0 +1,26 @@
+{
+  "id": "prescription-02",
+  "filename": "prescription-02-dr-naree",
+  "document_type": "prescription",
+  "fields": {
+    "doctor_name": "Dr. Naree Pongpattana",
+    "patient_name": "Naree Prasert",
+    "date": "2024-07-08",
+    "medications": [
+      {
+        "name": "Atorvastatin",
+        "dosage": "20mg",
+        "frequency": "Once daily at night",
+        "duration": "90 days",
+        "quantity": 90
+      },
+      {
+        "name": "Aspirin",
+        "dosage": "81mg",
+        "frequency": "Once daily",
+        "duration": "90 days",
+        "quantity": 90
+      }
+    ]
+  }
+}

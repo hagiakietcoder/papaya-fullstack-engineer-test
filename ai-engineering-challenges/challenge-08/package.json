@@ -1,0 +1,21 @@
+{
+  "name": "challenge-08",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "generate-docs": "tsx scripts/generate-documents.ts",
+    "render-docs": "tsx scripts/render-documents.ts",
+    "setup-docs": "npm run generate-docs && npm run render-docs",
+    "extract": "tsx scripts/run-extraction.ts",
+    "extract:all": "tsx scripts/run-extraction.ts --all"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "puppeteer": "^24.36.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "discharge-01",
+  "filename": "discharge-01-bangkok-pneumonia",
+  "document_type": "discharge_summary",
+  "fields": {
+    "hospital_name": "Bangkok Hospital",
+    "patient_name": "Somchai Prasert",
+    "admission_date": "2024-04-02",
+    "discharge_date": "2024-04-06",
+    "diagnosis": {
+      "primary": "Community-acquired pneumonia",
+      "secondary": [
+        "Hypertension",
+        "Type 2 diabetes mellitus"
+      ]
+    },
+    "procedures_performed": [
+      "IV antibiotic therapy",
+      "Chest physiotherapy",
+      "Oxygen support"
+    ],
+    "attending_physician": "Dr. Anan Chaiyaporn",
+    "discharge_instructions": "Complete oral antibiotics for 7 days. Follow up in OPD in 2 weeks. Return if fever recurs."
+  }
+}

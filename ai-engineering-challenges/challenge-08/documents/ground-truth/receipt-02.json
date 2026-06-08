@@ -1,0 +1,32 @@
+{
+  "id": "receipt-02",
+  "filename": "receipt-02-samitivej-pharmacy",
+  "document_type": "receipt",
+  "fields": {
+    "hospital_name": "Samitivej Sukhumvit Hospital",
+    "patient_name": "Naree Prasert",
+    "date": "2024-05-22",
+    "items": [
+      {
+        "description": "Amoxicillin 500mg",
+        "quantity": 2,
+        "unit_price": 180,
+        "total": 360
+      },
+      {
+        "description": "Paracetamol 500mg",
+        "quantity": 1,
+        "unit_price": 95,
+        "total": 95
+      },
+      {
+        "description": "Pharmacy dispensing fee",
+        "quantity": 1,
+        "unit_price": 120,
+        "total": 120
+      }
+    ],
+    "grand_total": 575,
+    "payment_method": "Cash"
+  }
+}

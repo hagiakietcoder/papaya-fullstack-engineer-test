@@ -11,7 +11,7 @@
 | Phần | Thư mục | Trạng thái |
 |------|---------|------------|
 | Logical Questions | [`logical-questions/`](./logical-questions/) | ✅ Đã trả lời 7 câu |
-| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–07 done |
+| AI Engineering Challenges | [`ai-engineering-challenges/`](./ai-engineering-challenges/) | 🔄 Challenge 01–08 done |
 
 ---
 
@@ -42,6 +42,7 @@
 | 05 | [Policy Summary Generator](./ai-engineering-challenges/challenge-05/) | Beginner | _pending deploy_ |
 | 06 | [Policy Benefits Calculator](./ai-engineering-challenges/challenge-06/) | Intermediate | [Results](./ai-engineering-challenges/challenge-06/src/data/expected-results.json) |
 | 07 | [Claims Intake Wizard](./ai-engineering-challenges/challenge-07/) | Intermediate | _pending deploy_ |
+| 08 | [Medical Document Extractor](./ai-engineering-challenges/challenge-08/) | Advanced | [Results](./ai-engineering-challenges/challenge-08/documents/extraction-results.json) |
 
 → Xem [`ai-engineering-challenges/README.md`](./ai-engineering-challenges/README.md)
 
@@ -174,6 +175,31 @@ Mở http://localhost:5173 → hoàn thành 5 bước submit claim.
 **Deploy (Netlify):** set Base directory = `ai-engineering-challenges/challenge-07`
 
 Chi tiết: [`challenge-07/README.md`](./ai-engineering-challenges/challenge-07/README.md)
+
+---
+
+## Cách chạy Challenge 08
+
+**Yêu cầu:** Node.js 18+
+
+```powershell
+cd d:\hgk\papaya-fullstack-engineer-test\ai-engineering-challenges\challenge-08
+npm install
+npm run setup-docs
+npm test
+npm run extract:all
+```
+
+**Kết quả mong đợi:**
+
+```
+Tests  16 passed (16)
+Wrote 10 result(s) to ...\output\extraction-results.json
+```
+
+Dùng LLM thật: copy `.env.example` → `.env`, set `LLM_PROVIDER=anthropic` hoặc `openai` + API key.
+
+Chi tiết: [`challenge-08/README.md`](./ai-engineering-challenges/challenge-08/README.md)
 
 ---
 

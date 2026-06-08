@@ -1,0 +1,20 @@
+{
+  "id": "discharge-02",
+  "filename": "discharge-02-samitivej-appendectomy",
+  "document_type": "discharge_summary",
+  "fields": {
+    "hospital_name": "Samitivej Sukhumvit Hospital",
+    "patient_name": "Pimchanok Prasert",
+    "admission_date": "2024-06-18",
+    "discharge_date": "2024-06-21",
+    "diagnosis": {
+      "primary": "Acute appendicitis",
+      "secondary": []
+    },
+    "procedures_performed": [
+      "Laparoscopic appendectomy"
+    ],
+    "attending_physician": "Dr. Siriporn Wattana",
+    "discharge_instructions": "Keep incision dry for 48 hours. No heavy lifting for 2 weeks. Pain medication as prescribed."
+  }
+}
