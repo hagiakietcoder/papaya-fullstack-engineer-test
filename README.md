@@ -2,7 +2,7 @@
 
 **Ứng viên:** Ha Gia Kiet  
 **Vị trí:** Full-Stack Engineer  
-**Trạng thái:** Đang làm bài (đã nộp)
+**Trạng thái:** Hoàn thành (đã nộp)
 
 ---
 
